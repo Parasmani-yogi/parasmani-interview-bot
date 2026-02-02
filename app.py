@@ -88,7 +88,7 @@ if st.button("Send") and user_input:
     )
 
     reply = response.choices[0].message.content
-    st.session_state.chat.append(("Bot", reply))
+    st.session_state.chat.append(("Paras", reply))
 
 # ===== Show only latest =====
 if len(st.session_state.chat) >= 2:
