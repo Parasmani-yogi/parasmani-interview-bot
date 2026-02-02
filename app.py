@@ -61,7 +61,7 @@ ADAPTIVE INTERVIEW MODE:
 Always answer like a real interview candidate.
 """
 
-st.title("🤖 Parasmani AI ")
+st.title("🤖 Parasmani chatbot ")
 st.write("Ask me anything about myself.")
 
 # ===== Memory =====
